@@ -21,3 +21,4 @@ Abbreviations:
  - add - a
  - push - ps
  - checkout - ch
+ - init - i

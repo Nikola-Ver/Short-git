@@ -83,5 +83,7 @@ IF "%~1%" == "p" (
     git cherry-pick "%~2%"
 ) ELSE IF "%~1%" == "d" (
     git diff "%~2%"
+) ELSE IF "%~1%" == "i" (
+    git init
 )
 @ECHO ON
