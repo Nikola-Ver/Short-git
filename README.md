@@ -23,3 +23,4 @@ Abbreviations:
  - checkout - ch
  - init - i
  - --version - v
+ - commit -m - c
