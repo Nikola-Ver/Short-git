@@ -11,7 +11,7 @@ Abbreviations:
  - status - s
  - merge - m
  - rebase - r
- - stasg - st
+ - stash - st
  - tag - t
  - config - cg
  - fetch - f
@@ -22,3 +22,4 @@ Abbreviations:
  - push - ps
  - checkout - ch
  - init - i
+ - --version - v

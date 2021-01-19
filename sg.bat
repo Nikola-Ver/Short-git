@@ -13,7 +13,7 @@ GOTO concat
 :endConcat
 IF %command% == "p" (
     git add *
-    git commit -m "%~2%"
+    git commit -m %arguments%
     git push
 ) ELSE IF %command% == "pl" (
     git pull %arguments%
