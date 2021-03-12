@@ -57,6 +57,9 @@ IF %command% == "p" (
     git init %arguments%
 ) ELSE IF %command% == "v" (
     git --version %arguments%
+) ELSE IF %command% == "am" (
+    git add *
+    git commit -m %arguments%
 )
 
 @ECHO ON
